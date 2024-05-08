@@ -19,7 +19,7 @@ const connection = mysql.createConnection({
 });
 
 app.get('/', (req, res) => {
-    res.send('서버 수정해보기');
+    res.send('확신 수정');
 });
 
 
